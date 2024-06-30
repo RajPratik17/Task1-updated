@@ -3,33 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Webpage</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Charming Coffee Shop</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
+        <h1>AK Coffee Shop</h1>
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Gallery</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <h1>Welcome to my webpage!</h1>
-        <p>This is a simple webpage created using HTML and CSS.</p>
-        <section>
-            <h2>Features</h2>
-            <ul>
-                <li>Responsive design</li>
-                <li>Accessible markup</li>
-                <li>Consistent styling</li>
-            </ul>
+        <section id="hero">
+            <video autoplay muted loop>
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="hero-overlay">
+                <h2>Welcome to the Best Coffee in Town</h2>
+            </div>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Our coffee shop is dedicated to providing the best coffee experience with a cozy ambiance. From the finest beans to our friendly baristas, every cup is crafted with love and passion. Whether you're looking for a quiet place to work, a spot to catch up with friends, or just a great cup of coffee, you'll find it here.</p>
+            <img src="image1.jpg" alt="Coffee Shop Interior">
+        </section>
+        <section id="menu">
+            <h2>Our Menu</h2>
+            <p>Explore our variety of coffee and snacks, crafted to perfection. From classic espresso drinks to seasonal specialties, our menu has something for everyone. Don’t forget to try our freshly baked pastries and sandwiches, perfect for any time of the day.</p>
+        </section>
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <p>Take a look at some of our favorite moments and delicious creations. We love capturing the beauty of our coffee and the joy it brings to our customers.</p>
+            <div class="gallery-grid">
+                <div class="gallery-item"><img src="image2.jpg" alt="Coffee 1"></div>
+                <div class="gallery-item"><img src="image3.jpg" alt="Coffee 2"></div>
+                <div class="gallery-item"><img src="image4.jpg" alt="Coffee 3"></div>
+                <div class="gallery-item"><img src="image5.jpg" alt="Coffee 4"></div>
+            </div>
         </section>
     </main>
     <footer>
-        <p>&copy; 2023 My Task 1</p>
+        <p>&copy; Coffee Shop by Ashmit</p>
     </footer>
 </body>
 </html>
